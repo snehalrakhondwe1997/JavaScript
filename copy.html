@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Prime NO
+    </title>
+</head>
+     <body> 
+    <script>
+function verify(){
+
+      
+        var x= document.getElementById("num").value;
+
+
+             int c=1;
+for(int i=2; i< =x; i++)
+if(x*i==0)
+c++;
+if(c==2 || x==1)
+document.write("The number is prime");
+else
+document.write("Not prime");
+}
+
+
+            
+    </script>
+
+  
+
+   <form>
+            Enter the number:
+            <input type="text" name=n value="">
+              
+              
+            <input type="button" value="Check" onClick="">
+            <br>
+        </form>
+    
+</body>
+  
+</html>

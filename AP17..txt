@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>fruits name</title>
+</head>
+<body>
+<script>
+ var fr["apple","banan","mango","greps"];
+document.write("friuts names"+<br>);
+for(var i=0; i<fr.length; i++0;){
+document.write(fr[i]+"<br>");
+}
+</script>
+</body>
+</html>
